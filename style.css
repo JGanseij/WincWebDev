@@ -71,6 +71,9 @@ h2 {
   article {
     background: lightblue;
   }
+  label {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
