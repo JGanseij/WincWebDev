@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+    Pagina Jeroen
+    
+        </title>
+    
+        <link rel="stylesheet" href="/opdracht_tweede_html_pagina/style.css">
+    </head>
+    
+    <header> 
+    
+        <nav>
+            <ul class = "top_nav"> 
+                <li class = "navlist"> <a href="about.html"> Meer over mij </a> </li>
+                <li class = "navlist"> <a href = "http://www.google.nl">  google </a> </li>
+                <li class = "navlist"> <a href = "http://www.raindrop.io"> een van de betetere bookmarkmanagers</a> </li>
+               <li class= "navlist"> <a href = "index.html"> Home </a></li>
+            </ul>
+            
+        </nav>
+    
+    </header>
+    <form name ="recept" method="POST" data-netlify="true">
+<label> Naam: <input type="text" name="name"></label>
+<label> Gender:</label>
+   <label> Man: <input type="radio" name="gender">  </label> <label> Vrouw: <input type="radio" name="gender">  </label>
+
+    
+<label> E-mail: <input type="email" name="email"></label>
+
+
+<label>Telefoonnummer: <input type="tel" name="tel"></label>
+
+<label>Leeftijd: <input type="number" name="age"></label>
+
+<label>Geboorte datum: <input type="date" name ="birthday"> </label>
+
+<label class="cuisine ">Favoriete cuisine: </label>
+    <label  class = "cuisine" for="frans"> Frans <input class = "cuisine" type="checkbox" id="frans"> </label>   
+    <label class = "cuisine" for="italiaans"> Italiaans <input class = "cuisine" type="checkbox" id="italiaans">  </label>        
+    <label class = "cuisine" for="spaans"> Spaans <input class = "cuisine" type= "checkbox" id="spaans"> </label>   
+    <label class = "cuisine" for="arabisch"> Arabisch <input class = "cuisine" type="checkbox" id="arabisch"> </label>     
+    
+<label> Favoriete kleur schort <input type="color"> </label>
+
+<label> Biografie  </label>
+<textarea name="Biografie" id="" cols="30" rows="10"></textarea>
+
+<label> Upload hier je laate recept  </label><input type="file"> 
+
+<label> Link to your website <input type="url"></label>
+
+<button type="reset">clear form</button>
+
+<button type="submit"> Submit form</button>
+
+<buttton type="reset"> </buttton>
+
+
+    </form>
+</html>

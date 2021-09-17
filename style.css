@@ -7,7 +7,7 @@ body {
 
 .black-border {
   border: 5px solid black;
-  marign: auto;
+  margin: auto;
   padding: auto;
 }
 
@@ -53,4 +53,68 @@ section {
 }
 h2 {
   padding: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  bottom: 1px;
+}
+
+input [type="checkbox"] {
+  flex: none;
+}
+
+@media screen {
+  body {
+    background: lightblue;
+  }
+  .navlist {
+    background: lightblue;
+  }
+  main {
+    background: lightblue;
+  }
+  section {
+    background: lightblue;
+  }
+  article {
+    background: lightblue;
+  }
+  label {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background: grey;
+    color: white;
+    font-size: smaller;
+    row-gap: 5px;
+  }
+  .navlist {
+    background: grey;
+    color: white;
+    font-size: smaller;
+    row-gap: 5px;
+  }
+  main {
+    background: grey;
+    color: white;
+    font-size: smaller;
+    row-gap: 5px;
+  }
+  section {
+    background: grey;
+    color: white;
+    font-size: smaller;
+    row-gap: 5px;
+  }
+  article {
+    background: grey;
+    color: white;
+    font-size: smaller;
+    row-gap: 5px;
+  }
 }
