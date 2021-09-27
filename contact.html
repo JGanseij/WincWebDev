@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">    
 <head>
-    <title>
-Pagina Jeroen
-
-    </title>§
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<header> 
-
-    <nav>
-        <ul class = "top_nav"> 
-            <li class = "navlist"> <a href="about.html"> Meer over mij </a> </li>
-            <li class = "navlist"> <a href = "http://www.google.nl">  google </a> </li>
-            <li class = "navlist"> <a href = "http://www.raindrop.io"> een van de betetere bookmarkmanagers</a> </li>
-           <li class= "navlist"> <a href = "index.html"> Home </a></li>
-        </ul>
         
-    </nav>
+        <title>Finance for startups</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+   
+<header>
+    <a class = "homepage" href="index.html"> Finance for Startups </a>
+       <nav> 
+           <a href="community.html">  <ul class= "nav">Community</ul> </a>
+           <a href="services.html"><ul class= "nav">Services</ul> </a>
+           <a href="blog.html"> <ul class= "nav">Blog</ul> </a>
+           <a href ="contact.html"> <ul class= "nav">Contact</ul> </a>
+       </nav>
+   </header>
+<body>
+<h1> How can we help?</h1>
+<h2> Take the first step to transform you finance department in a profit center. </h2>
 
-</header>
+<form> 
+    <label> First name <input type="text" name="first_name"> </label>
+    <label> Last name <input type="text" name="last_name"> </label>
+    <label> email <input type="email" name="email"> </label>
+    <label> Company name <input type="text"> </label>
+    <label> Telephone number <input type="tel"> </label>
 
-<form name ="contact" method="POST" data-netlify="true">
+    <div> How can we help? </div> <textarea name="textarea" id="" cols="150" rows="30"></textarea>
+
+    <input type="checkbox" name="GDPR" required>
+    <label for="GDPR" >
+        Yes, I agree with the <a href="https://www.autoriteitpersoonsgegevens.nl/nl/over-privacy/waarom-is-privacy-belangrijk"> privacy policy.  </a> 
+    </label>
 
 
-<label> Naam: <input type="text" name="name"/> </label>
+<button type="submit">SEND</button>
 
-<label> E-mail: <input type="email" name="email"/>  
-</label>
-<label> bericht:
-    <textarea name="bericht" id="" cols="55" rows="10"></textarea>
-
-</label>  
-<button type ="submit"> Verstuur </button>
 
 </form>
+
+</body>
+
+<footer>
+
+    Subcribe to our news letter <input type="email">  <button type="submit"> Submit </button>
+
+</footer>
+
 </html>
